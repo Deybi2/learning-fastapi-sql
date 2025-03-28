@@ -5,6 +5,10 @@ name = "pypi"
 
 [packages]
 fastapi = {extras = ["standard"], version = "*"}
+sqlmodel = "*"
+
+[scripts]
+dev = "fastapi dev main.py"
 
 [dev-packages]
 
